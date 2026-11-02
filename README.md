@@ -22,8 +22,9 @@ Este repositório contém os arquivos para recriar os agentes **Shorts Editor** 
   - `shorts-editor/cookbooks/cookbook.md`
   - `shorts-editor/scripts/init_verifiy.py`
   - `shorts-editor/artifacts/monitor-render.html`
+  - `shorts-editor/artifacts/storyboard-director.html`
 
-O cookbook descreve a preparação de Remotion e faster-whisper. O script oferece `--check` para diagnóstico; examine o script e o ambiente antes de executar qualquer instalação. As regras de aprovação de storyboard e prévia constam no SOUL e nas habilidades.
+O cookbook descreve a preparação de Remotion e faster-whisper. O script oferece `--check` para diagnóstico; examine o script e o ambiente antes de executar qualquer instalação. As regras de aprovação de storyboard e prévia constam no SOUL e nas habilidades. O painel de storyboard deve ser disponibilizado junto ao agente. Os novos arquivos produzidos pelo agente devem ir para `output/` em seu workspace privado.
 
 ## YouTube Manager
 
